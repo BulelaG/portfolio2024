@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+
+
+
+.logo-img{
+  position: fixed;
+  padding-top: 20px;
+  padding-left: 20px;
+  width:250px;
+  height: 170px;
+  color: rgb(255, 187, 0);
+}
+
+/* #navbarNav{
+  top: 1;
+} */
+
+.logo{
+  font-family: 'Brittany Signature', sans-serif;
+  font-size: 44px;
+                                                
+}
+
+.navbar-nav{
+  background-image: linear-gradient(black, grey, black);
+
+  position: fixed;
+  /* border: 1px solid; */
+  border-radius: 100px;
+  background-color: transparent;
+  margin-top: 44px;
+}
+
+.text-danger{
+  color: red;
+}
+
+.nav-text{
+  margin-bottom: 0 !important;  
+  color: rgb(255, 255, 255);
+
+}
+
+.nav-text:hover {
+  color: rgb(0, 187, 0);
+  }
+  
+.nav-link{
+  /* font-family: ; */
+  font-weight: 400;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* LANDING */
+/* .landingh1{
+  
+
+} */
+
+.landin{
+padding-top:180px;
+padding-bottom: 150px;
+}
+
+.service-div{
+  display: flex;
+}
+
+.home{
+  background-image: url(./images/1.png);
+  object-fit: contain;
+}
+
+.lead{
+  animation: fadeIn 5s; 
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 1; }
+
+  
+
+  100% { opacity: 0; }
+}
+
+
+/* About */
+
+.about-img{
+  object-fit: cover;
+  border:0px solid;
+  /* border-radius: 250px; */
+}
+
+.about{
+/* background-image: url(./images/About\ BG.png); */
+/* object-fit: cover; */
+padding-top:100px;
+padding-bottom: 120px;
+background-image: linear-gradient(black, grey, black);
+}
+
+/* .cardGroup{
+  background-image: linear-gradient(black, grey, black);
+  padding: 0% 14% 0 14%;
+
+  padding-top:100px;
+  padding-bottom: 80px;
+
+} */
+.card{
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+h1{
+  font-size: 1px;
+  font-family: 'Brittany Signature', sans-serif;
+}
+.card-img-top{
+  width: 150px;
+  height: 250px;
+  object-fit: contain;
+}
+
+/* Technical skills*/
+
+.tools{
+  padding-right:200px;
+  padding-left:200px ;
+  display: flex   ;
+  justify-content: center;
+}
+.tech{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
+/* Resume */
+
+.timeline{
+
+  background-image: linear-gradient(black, grey, black);
+
+}
+
+.Resume{
+  background-image: linear-gradient(black, grey, black);
+  padding: 0% 14% 0 14%;
+
+  padding-top:100px;
+  padding-bottom: 80px;
+}
+.cardGroup{
+  display: flex;
+  flex-wrap:nowrap;
+}
+
+/* Blog */
+
+.iframe{
+  width: 20%;
+  height: 18%;
+}
+
+.Blog{
+  background-image: linear-gradient(black, grey, black);
+  padding: 0% 14% 0 14%;
+  
+  padding-top:100px;
+  padding-bottom: 80px;
+}
+
+/* Contact */
+.Contact{
+  background-image: linear-gradient(black, grey, black);
+  padding: 0% 14% 0 14%;
+
+  padding-top:100px;
+  padding-bottom: 80px;
+}
+
+/* Footer */
+
+.Footer{
+  background-image: linear-gradient(black, grey, black);
+  padding: 0% 14% 0 14%;
+}
+
+
+/* Timeline css */
+
+.hori-timeline .events {
+  border-top: 3px solid #e9ecef;
+}
+.hori-timeline .events .event-list {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 0;
+}
+.hori-timeline .events .event-list:before {
+  content: "";
+  position: absolute;
+  height: 36px;
+  border-right: 2px dashed #dee2e6;
+  top: 0;
+}
+.hori-timeline .events .event-list .event-date {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  width: 75px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+@media (min-width: 1140px) {
+  .hori-timeline .events .event-list {
+      display: inline-block;
+      width: 24%;
+      padding-top: 45px;
+  }
+  .hori-timeline .events .event-list .event-date {
+      top: -12px;
+  }
+}
+.bg-soft-primary {
+  background-color: rgba(64,144,203,.3)!important;
+}
+.bg-soft-success {
+  background-color: rgba(71,189,154,.3)!important;
+}
+.bg-soft-danger {
+  background-color: rgba(231,76,94,.3)!important;
+}
+.bg-soft-warning {
+  background-color: rgba(249,213,112,.3)!important;
+}
+.card {
+  border: none;
+  margin-bottom: 24px;
+  -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+  box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+}
+
+
+/* footer */
+
+.icons{
+  
+
+display: flex;
+
+
+}
+a{
+text-decoration: none;
+}
+.card-body{
+  background-image: linear-gradient(black, grey, black);
+
+}
