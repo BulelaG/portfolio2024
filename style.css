@@ -5,6 +5,10 @@
 }
 
 
+/* Skills bar */
+
+
+
 /* Navbar */
 
 
@@ -75,6 +79,7 @@ padding-bottom: 150px;
 }
 
 .home{
+  max-height: 900px;
   background-image: url(./images/1.png);
   object-fit: contain;
 }
