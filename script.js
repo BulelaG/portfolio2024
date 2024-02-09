@@ -12,3 +12,7 @@ $(document).ready(function () {
         }
     )
 });
+
+
+
+// JS for the skills progress 
