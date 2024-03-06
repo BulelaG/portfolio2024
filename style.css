@@ -206,12 +206,12 @@ h1{
 
 .timeline{
 
-  background-image: linear-gradient(black, grey, black);
+  background-image: linear-gradient(grey,black, grey);
 
 }
 
 .Resume{
-  background-image: linear-gradient(black, grey, black);
+  background-image: linear-gradient(black, grey);
   padding: 0% 14% 0 14%;
 
   padding-top:100px;
@@ -256,8 +256,12 @@ h1{
 
 /* Timeline css */
 
+.span{
+  font-size: 13px ;
+}
+
 .hori-timeline .events {
-  border-top: 3px solid #e9ecef;
+  border-bottom: 3px solid #00d9ff;
 }
 .hori-timeline .events .event-list {
   display: block;
@@ -268,9 +272,8 @@ h1{
 }
 .hori-timeline .events .event-list:before {
   content: "";
-  position: absolute;
   height: 36px;
-  border-right: 2px dashed #dee2e6;
+  border-right: 2px dashed #00d9ff;
   top: 0;
 }
 .hori-timeline .events .event-list .event-date {
@@ -287,7 +290,7 @@ h1{
   .hori-timeline .events .event-list {
       display: inline-block;
       width: 24%;
-      padding-top: 45px;
+      padding-top: 35px;
   }
   .hori-timeline .events .event-list .event-date {
       top: -12px;
@@ -326,6 +329,6 @@ a{
 text-decoration: none;
 }
 .card-body{
-  background-image: linear-gradient(black, grey, black);
+  background-image: linear-gradient(black, grey, rgb(236, 221, 221));
 
 }

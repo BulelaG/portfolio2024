@@ -7,8 +7,9 @@
     <link rel="shortcut icon" href="./images/white-logo-name.png" type="image/x-icon">
     <link href="https://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-JS
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./slider.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
@@ -214,18 +215,56 @@ JS
 
               <div class="skillbar" data-percent="70%">
                   <div class="skillbar-title">
-                    <img  class="skills-img" src="./images/icons8-javascript-144.png" alt="">
+                    <img  class="skills-img" src="./images/icons8-python-144.png" alt="">
 
-                    branding</div>
-                  <div class="skill-bar-percent text-white">70%</div>
+                    Python</div>
+                  <div class="skill-bar-percent text-white">60%</div>
                   <div class="skillbar-bar" style="width: 70%;"></div>
               </div>
+              <div class="skillbar" data-percent="80%">
+                <div class="skillbar-title">
+                  <img class="skills-img"  src="./images/icons8-git-144.png" alt="">
+                  Git</div>
+                <div class="skill-bar-percent text-white">70%</div>
+                <div class="skillbar-bar" style="width: 80%;"></div>
+            </div>
+
+            <!-- <div class="skillbar" data-percent="40%">
+                <div class="skillbar-title">
+                  <img  class="skills-img" src="./images/icons8-javascript-144.png" alt="">
+                  Java</div>
+                <div class="skill-bar-percent text-white">40%</div>
+                <div class="skillbar-bar" style="width: 40%;"></div>
+            </div>
+
+            <div class="skillbar" data-percent="70%">
+                <div class="skillbar-title">
+                  <img  class="skills-img" src="./images/5.png" alt="">
+
+                  branding</div>
+                <div class="skill-bar-percent text-white">70%</div>
+                <div class="skillbar-bar" style="width: 70%;"></div>
+            </div> -->
           </div>
       </div>
   </div>
 </div>
 
-<!-- -------------- -->
+<!--------Projects-------- -->
+
+<div id="projects">
+
+  <div>
+  <div>
+    <button onclick="prev()"> Prev </button>
+    <img id="slider" src="http://www.sololearn.com/uploads/slider/1.jpg" width="200px" height="100px"/>
+    <button onclick="next()"> Next </button>
+</div>
+</div>
+
+</div>
+
+<!-- --------- -->
 
   
 
@@ -246,46 +285,94 @@ JS
                         <ul class="list-inline events">
                             <li class="list-inline-item event-list">
                                 <div class="px-4">
-                                    <div class="event-date bg-soft-primary text-primary">2 June</div>
-                                    <h5 class="font-size-16">Ayoba Developer Proggramme @ UCT GSB Solution Space</h5>
-                                    <p class="text-muted">It will be as simple as occidental in fact it will be Occidental Cambridge friend</p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-inline-item event-list">
-                                <div class="px-4">
-                                    <div class="event-date bg-soft-success text-success">Feb 2022</div>
-                                    <h5 class="font-size-16">Ayoba Developer Proggramme @ UCT GSB Solution Space</h5>
-                                    <p class="text-muted">Everyone realizes why a new common language one could refuse translators.</p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-inline-item event-list">
-                                <div class="px-4">
-                                  <div class="event-date bg-soft-primary text-primary">2 June</div>
-                                  <h5 class="font-size-16 text-white">Ayoba Developer Proggramme @ UCT GSB Solution Space</h5>
-                                    <p class="text-muted"> Focuses on modern web and application development. UI/UX development, API and Cloud Services.</p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-inline-item event-list">
-                                <div class="px-4">
-                                  <div class="event-date bg-soft-primary text-primary">2 June</div>
-                                  <h5 class="font-size-16 text-white">CapaCiTi Digital Career Accelerator</h5>
-                                    <!-- <h6 class="font-size-16">Software Development Programme</h6> -->
+                                  <button type="button" class="event-date btn btn-outline-info btn-sm"><small>Aug-Feb 2021</small></button>
 
-                                    <p class="text-white">Languages only differ in their pronunciation and their most common words.</p>
-                                    <div>
-                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                                    </div>
+                                    <!-- <div class="event-date bg-soft-primary text-primary">Aug-Feb 2021</div> -->
+                                    <h5 class="font-size-10 text-success"><em>Life Choices Academy </em></h5>
+                                    <p class="text-warning"><strong>Computer Programming, Personal & Profesional Development Course</strong></p>
+                                    <hr><ul>
+                                    <li><span class="text-white span">Modern web languages</span></li>
+                                    <li><span class="text-white span">Professional & Personal Development</span></li>
+                                    <li><span class="text-white span">Team Work</span></li>
+                                    <li><span class="text-white span">Problem Solving</span></li>
+                                  </ul>
+
+
+                                </div>
+                                <br>
+                                
+                                <img class="py-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADd0lEQVR4nO2aW4hNURjHf2OIyRRPhFKjXDIxuUyKmhmSQbnlTiQPSJ4Y1xIGIx5EbuFF0qjBJPMgSeTyIhnNw/AiD5jGKZfMYCbM0Vffqd2edc7stffa53iYf311Zu+1vvX/r7W+tb6110AvetELFxgIVAJHgdtAM/AZ6AA6gS/Aa+AOcAyYBxSSY+QBc4DrwE8gaWki7gYwX31lFYuAlyFIp7MmYHk2iI8C7joknvTZA2BMXOSlh75pQ2+ALcAIoNSxiDZgnWvyB9T5b6Aa6O95Vx7TaJxwFRunPORX6rOhwF7HcZA02OWoIlI9L1ajPV+jK0icxJO+kQiFZT5HazTIkjmw9bbkizwB+z9YOzDWRkCDg0afAguAGY78PQ4aDwsiNvQIqDD4ldXqYUTfq4IIeB6xx3tClBFpBvpkcj7LYY/3hLAjImlMWlyLocddj0h9OkcFGu1x9birEekEBoWZPpmIj9a1+hzwTOdqC/BLrUWfybvzWjZd0hZEyEJTxUMhiC8GGoFWze13KIHxwDAd1QH6W56VAduBOq3TqD5shZw0VbhpOVWqgA/ACqAv9pA6Uvc9sCtDOZOQe6aCTZYCEsBEoqNYU2gbAe9MBVssV5suh0fBvwZfmVYno+DvPQROnvaGV0CfGASUBwhiY9ttAQR0eaaWawEVFhubtJ3vd9IaUID/mSsBSQuTryDd8CqCAFlRpgEbgX3AYT1PDI1JwFuTk/oQAmRtr9XRuwVsA6b6zsxxCLhvcrIzhICEbkzGrT1GAdUmJ6UhBEyPSDysAEl7uiE/wzHyiJbZ73teQnRMsCTfoSmKEVfSVCr0BKt3FGTzWw30C0FcfMkJ66OlAIm1tJhsqCCB6cVWQ5mELgISRzM1PRiuPVWgv4t1ra9SEp8siafMu5ka8cRXYbDvfWHIhl1YY5ChrfRVmuR7X5JDAUsJiFpPpUu+dxdyRL4BCwzRGxap+MeTVpfp39km3waMxBKLPGQTOrV6ypfisC5gLSGxOYfzPam2h4g4nkPyZ3GETXo/kM1pc9D15Z/cSH7NAvl2YAkxQXbUq4akzuVSWUQWIOnCC4fEm4C55ABTgIsBztPpsso6YHYcF92pT4W7gdNKUj58yUkoZXLBJ0c7MfnAJf9OIJbp++oPTznJQlP15Tjr9S2JobR5RjlsAMaZmP4DkeBckKgtT+cAAAAASUVORK5CYII=">                            
+                                <h6 class="text-info">|</h6>
+                              </li>
+                                   
+
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                  <button type="button" class="event-date btn btn-outline-info btn-sm"><small>Feb-Jun 2022</small></button>
+
+                                    <!-- <div class="event-date bg-soft-primary text-primary">Feb-Jun 2022</div> -->
+                                    <h5 class="font-size-10 text-success"><em>Life Choices Studio </em></h5>
+                                    <p class="text-warning"><strong>Internship</strong></p>
+                                    <hr><ul>
+                                      <li><span class="text-white span">UI & UX Design</span></li>
+                                      <li><span class="text-white span">SEO & CMS Learning </span></li>
+                                      <li><span class="text-white span">Prototyping & Brand Design</span></li>
+                                      <li><span class="text-white span">Heckathon Participation</span></li>
+                                    </ul>
+
+                               </div>
+                               <div>
+                                <br>
+                                <img class="py-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADKUlEQVR4nO2ZSWgUQRSGv4kmBhUkrom3KLgQPYkKEvCieBAvLiCCuIK4HMSgIIIavMXkIHEBUXG5edEcjChRIXowCBq3gKLiDorLIaIRl5KSv6EYZjI9092xEueHZma63/9e/dW1vHoDRRRhMRNoAJ4BT/Xd3usXqAH2Ao8Bk+V6ARwAaoEU/aDxboMDm0e+iQrT+FQC3FiQrQEvIzSgpq9FXUkL9BxoBGbFFCglX43y7cZqI0YETpuA2Qm/+pRiNDlxY0PsDkOiKOS/fSMmxxWXfWwYMEKuA+0DQUg2eC9kMLAcOAvcBbqBz8AlYB59BxNFyFTgXi+99hvYCYzAYyHjgHci3wHWAlOAocBoYAvwVc9/AhfE8U7IGRHPA0Oy2CwAWoAPsr2htGIU8MOHOTJSvfwNqAxhPx74qEBzdK/NByGLRbqcB+ewONv1u8EHIZtFas6DszWNU+eDkG0i7Y8gJG6YQoSsEulEHpxgKO3CIyG1ImVKRXKdHBfikZDh2uzsLl4Swn4Q8EUcu+JZ3PZhjiwS6bUamQulwFtxgsLbOR+E7BOpPg/OEXHspPdm+d0k0uk8OMEb2KjfjT4ImQD0AL+AdSHsdyjId6CaZGAKEWKxXsQnOezsYvBeE30lycEUKgSdPyx5aS82y2TTQbIwUYSsFrlbe0s6ZjiZr7V136TxYY64w+akHNjsNh2BiFOyLc1QZfdCCDpfBE7czbHEuR+UTd3SpndCXCe2xwOUpjkv1xD0VkiV48RudhO1xAapvpFN0jBRhMwFukL0XpdsvRJSocJCp0O+D2wArjr3Lirdf+Dc6xS34l8KmQwc1zk9INkqym5gmFPjsv8o3XImuH22x6m4GPk4BkzqSyHlwEGlI0afrcASoCyDfb2TGLooE6c1zVezYiQqpMoZQrYXD+XIlWyDXmlO9HZOqZavHmfIVTq141xzzuSxmv09Z3TooR3n00L0ygrH4fwQ9tOBh7K/qZhRhLRnCrLGOTyNIRxaHKdHQ3LGAm/EsYtD7Lgm57ZiEgYpZbnuShYWdUn8KxvgU8SxWsiVKV+LjKiTLrYxXgQDAH8AOqR15TxVWIwAAAAASUVORK5CYII=">                                   
+                                <h6 class="text-info">|</h6>
+
+                               </div>
+                               </li>
+                             <!--  -->
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                  <button type="button" class="event-date btn btn-outline-info btn-sm"><small>Mar-Jul 2023</small></button>
+
+                                  <!-- <div class="event-date bg-soft-primary text-primary">Mar - Jul 2023</div> -->
+                                  <h5 class="font-size-10 text-success"><em>Ayoba Developer Programme </em></h5>
+                                  <p class="text-warning"><strong>Fullstack Web Development Course</strong></p>
+                                  <hr><ul>
+                                    <li><span class="text-white span">MEAN Stack Web Development.                                    </span></li>
+                                    <li><span class="text-white span">API Development</span></li>
+                                    <li><span class="text-white span">Agile Development</span></li>
+                                    <li><span class="text-white span">MicroApps Development</span></li>
+                                  </ul>
+                                  <div>
+                                    <br>
+                                    <img class="py-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADd0lEQVR4nO2aW4hNURjHf2OIyRRPhFKjXDIxuUyKmhmSQbnlTiQPSJ4Y1xIGIx5EbuFF0qjBJPMgSeTyIhnNw/AiD5jGKZfMYCbM0Vffqd2edc7stffa53iYf311Zu+1vvX/r7W+tb6110AvetELFxgIVAJHgdtAM/AZ6AA6gS/Aa+AOcAyYBxSSY+QBc4DrwE8gaWki7gYwX31lFYuAlyFIp7MmYHk2iI8C7joknvTZA2BMXOSlh75pQ2+ALcAIoNSxiDZgnWvyB9T5b6Aa6O95Vx7TaJxwFRunPORX6rOhwF7HcZA02OWoIlI9L1ajPV+jK0icxJO+kQiFZT5HazTIkjmw9bbkizwB+z9YOzDWRkCDg0afAguAGY78PQ4aDwsiNvQIqDD4ldXqYUTfq4IIeB6xx3tClBFpBvpkcj7LYY/3hLAjImlMWlyLocddj0h9OkcFGu1x9birEekEBoWZPpmIj9a1+hzwTOdqC/BLrUWfybvzWjZd0hZEyEJTxUMhiC8GGoFWze13KIHxwDAd1QH6W56VAduBOq3TqD5shZw0VbhpOVWqgA/ACqAv9pA6Uvc9sCtDOZOQe6aCTZYCEsBEoqNYU2gbAe9MBVssV5suh0fBvwZfmVYno+DvPQROnvaGV0CfGASUBwhiY9ttAQR0eaaWawEVFhubtJ3vd9IaUID/mSsBSQuTryDd8CqCAFlRpgEbgX3AYT1PDI1JwFuTk/oQAmRtr9XRuwVsA6b6zsxxCLhvcrIzhICEbkzGrT1GAdUmJ6UhBEyPSDysAEl7uiE/wzHyiJbZ73teQnRMsCTfoSmKEVfSVCr0BKt3FGTzWw30C0FcfMkJ66OlAIm1tJhsqCCB6cVWQ5mELgISRzM1PRiuPVWgv4t1ra9SEp8siafMu5ka8cRXYbDvfWHIhl1YY5ChrfRVmuR7X5JDAUsJiFpPpUu+dxdyRL4BCwzRGxap+MeTVpfp39km3waMxBKLPGQTOrV6ypfisC5gLSGxOYfzPam2h4g4nkPyZ3GETXo/kM1pc9D15Z/cSH7NAvl2YAkxQXbUq4akzuVSWUQWIOnCC4fEm4C55ABTgIsBztPpsso6YHYcF92pT4W7gdNKUj58yUkoZXLBJ0c7MfnAJf9OIJbp++oPTznJQlP15Tjr9S2JobR5RjlsAMaZmP4DkeBckKgtT+cAAAAASUVORK5CYII=">                            
+                                    <h6 class="text-info">|</h6>
+
+                                  </div>
                                 </div>
                             </li>
+                            <!--  -->
+                            <li class="list-inline-item event-list">
+                              <div class="px-4">
+                                <button type="button" class="event-date btn btn-outline-info btn-sm"><small>Nov-Apr 2023</small></button>
+                                
+
+                                <!-- <div class="event-date bg-soft-primary text-primary">Mar - Jul 2023</div> -->
+                                <h5 class="font-size-10 text-success"><em>CapaCiTi Digital Career Accelerator</em></h5>
+                                <p class="text-warning"><strong>Systems/Software Development</strong></p>
+                                <hr><ul>
+                                  <li><span class="text-white span">Programming</span></li>
+                                  <li><span class="text-white span">Web Development</span></li>
+                                  <li><span class="text-white span">Professionalism</span></li>
+                                </ul>
+                                <div>
+                                  <br>
+                                  <img class="py-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADd0lEQVR4nO2aW4hNURjHf2OIyRRPhFKjXDIxuUyKmhmSQbnlTiQPSJ4Y1xIGIx5EbuFF0qjBJPMgSeTyIhnNw/AiD5jGKZfMYCbM0Vffqd2edc7stffa53iYf311Zu+1vvX/r7W+tb6110AvetELFxgIVAJHgdtAM/AZ6AA6gS/Aa+AOcAyYBxSSY+QBc4DrwE8gaWki7gYwX31lFYuAlyFIp7MmYHk2iI8C7joknvTZA2BMXOSlh75pQ2+ALcAIoNSxiDZgnWvyB9T5b6Aa6O95Vx7TaJxwFRunPORX6rOhwF7HcZA02OWoIlI9L1ajPV+jK0icxJO+kQiFZT5HazTIkjmw9bbkizwB+z9YOzDWRkCDg0afAguAGY78PQ4aDwsiNvQIqDD4ldXqYUTfq4IIeB6xx3tClBFpBvpkcj7LYY/3hLAjImlMWlyLocddj0h9OkcFGu1x9birEekEBoWZPpmIj9a1+hzwTOdqC/BLrUWfybvzWjZd0hZEyEJTxUMhiC8GGoFWze13KIHxwDAd1QH6W56VAduBOq3TqD5shZw0VbhpOVWqgA/ACqAv9pA6Uvc9sCtDOZOQe6aCTZYCEsBEoqNYU2gbAe9MBVssV5suh0fBvwZfmVYno+DvPQROnvaGV0CfGASUBwhiY9ttAQR0eaaWawEVFhubtJ3vd9IaUID/mSsBSQuTryDd8CqCAFlRpgEbgX3AYT1PDI1JwFuTk/oQAmRtr9XRuwVsA6b6zsxxCLhvcrIzhICEbkzGrT1GAdUmJ6UhBEyPSDysAEl7uiE/wzHyiJbZ73teQnRMsCTfoSmKEVfSVCr0BKt3FGTzWw30C0FcfMkJ66OlAIm1tJhsqCCB6cVWQ5mELgISRzM1PRiuPVWgv4t1ra9SEp8siafMu5ka8cRXYbDvfWHIhl1YY5ChrfRVmuR7X5JDAUsJiFpPpUu+dxdyRL4BCwzRGxap+MeTVpfp39km3waMxBKLPGQTOrV6ypfisC5gLSGxOYfzPam2h4g4nkPyZ3GETXo/kM1pc9D15Z/cSH7NAvl2YAkxQXbUq4akzuVSWUQWIOnCC4fEm4C55ABTgIsBztPpsso6YHYcF92pT4W7gdNKUj58yUkoZXLBJ0c7MfnAJf9OIJbp++oPTznJQlP15Tjr9S2JobR5RjlsAMaZmP4DkeBckKgtT+cAAAAASUVORK5CYII=">                            
+                                  <h6 class="text-info">|</h6>
+
+                                </div>
+                              </div>
+                          </li>
+                            <!--  -->
                         </ul>
                     </div>
                 </div>
@@ -422,7 +509,7 @@ Portfolio
       <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
         <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
       </a>
-      <span class="mb-3 mb-md-0 text-body-secondary text-warning">&copy; 2023 Bulela Gomoshe</span>
+      <span class="mb-3 mb-md-0 text-body-secondary text-warning">&copy; 2024 Bulela Gomoshe</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
