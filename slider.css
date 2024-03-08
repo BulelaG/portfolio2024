@@ -1,10 +1,19 @@
+#projects{
+    background-image: linear-gradient(black, grey, black);
+    padding: 0% 14% 0 14%;
+  
+    padding-top:100px;
+    padding-bottom: 80px;
+  }
 .slider-btn {
     margin-top:30px;
     /* float:left; */
     height:50px;
 }
 .slider {
-    float:left;
-    margin-right:10px;
-    margin-left:10px;
+    object-fit: contain;
+    
+} 
+img{
+    object-fit: contain;
 }

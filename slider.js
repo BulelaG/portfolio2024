@@ -1,8 +1,8 @@
 // JS for projects
 var images = [
-    './images/1.png', 
-    './images/2.png', 
-    '/images/4.png'
+    './images/chatbot.PNG', 
+    './images/restu.PNG'
+    
 ];
 var num = 0;
 function next() {
