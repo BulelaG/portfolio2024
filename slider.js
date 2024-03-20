@@ -1,12 +1,27 @@
 // JS for projects
-var projects = [{
+var projects = [
+    {
     name: 'Mychat',
     image: './images/chatbot.PNG',
-    desc: 'This is a chatbot that can be used to research all kinds of topics, built.'},
+    desc: 'This is a chatbot that can be used to research all kinds of topics, built.',
+    github: 'https://github.com',
+    site: 'https://github.com'
+    },
     {
     name: "Les Chevres",
     image:'./images/restu.PNG',
-    desc: 'This is a website for Les Chèvres, a french restaurant in France.'}
+    desc: 'This is a website for Les Chèvres, a french restaurant in France.',
+    github: 'https://github.com',
+    site: 'https://github.com'
+    },
+    {
+        name: "My Portfolio",
+        image:'./images/portfolio.PNG',
+        desc: 'This is my developer portfolio',
+        github: 'https://github.com/BulelaG/portfolio2024',
+        site: 'https://github.com'
+
+    }
     
 ];
 var num = 0;
@@ -16,6 +31,9 @@ function next() {
     var slider = document.getElementById('slider');
     var p_name = document.getElementById('p_name');
     var p_desc = document.getElementById('desc');
+    var p_github = document.getElementById('github');
+    var p_site = document.getElementById('site');
+
 
 
 
@@ -30,6 +48,9 @@ function next() {
     slider.src = projects[num].image;
     p_name.innerHTML = projects[num].name;
     p_desc.innerHTML = projects[num].desc;
+    p_github.innerHTML = projects[num].github;
+    p_site.innerHTML = projects[num].site;
+    
 
 
 }
@@ -37,6 +58,8 @@ function prev() {
     var slider = document.getElementById('slider');
     var p_name = document.getElementById('p_name');
     var p_desc = document.getElementById('desc');
+    var p_github = document.getElementById('github');
+    var p_site = document.getElementById('site');
 
     num--;
     if(num < 0) {
@@ -45,6 +68,8 @@ function prev() {
     slider.src = projects[num].image;
     p_name.innerHTML = projects[num].name;
     p_desc.innerHTML = projects[num].desc;
+    p_github.href = projects[num].github;
+    p_site.href = projects[num].site;
 
 
 }

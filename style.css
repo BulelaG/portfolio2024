@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comfortaa:wght@700&family=Montserrat:wght@700&family=Poppins:wght@300&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -82,6 +84,10 @@ padding-top: 3%;
   font-size: 44px;
                                                 
 }
+h3{
+  font-family: 'Comfortaa', sans-serif;
+
+}
 
 .navbar-nav{
   background-image: linear-gradient(black, grey, black);
@@ -140,13 +146,13 @@ padding-bottom: 150px;
 }
 
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   0% { opacity: 1; }
 
   
 
   100% { opacity: 0; }
-}
+} */
 
 
 /* About */
@@ -160,8 +166,8 @@ padding-bottom: 150px;
 .about{
 /* background-image: url(./images/About\ BG.png); */
 /* object-fit: cover; */
-padding-top:100px;
-padding-bottom: 120px;
+padding-top:80px;
+padding-bottom: 130px;
 background-image: linear-gradient(black, grey, black);
 }
 
@@ -329,6 +335,6 @@ a{
 text-decoration: none;
 }
 .card-body{
-  background-image: linear-gradient(black, grey, rgb(236, 221, 221));
+  background-image: linear-gradient(black, grey, rgb(51, 51, 51));
 
 }
