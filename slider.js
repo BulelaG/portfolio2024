@@ -4,22 +4,22 @@ var projects = [
     name: 'Mychat',
     image: './images/chatbot.PNG',
     desc: 'This is a chatbot that can be used to research all kinds of topics, built.',
-    github: 'https://github.com',
-    site: 'https://github.com'
+    github: 'https://github.com/BulelaG/chatbot',
+    site: 'https://mycht.netlify.app'
     },
     {
     name: "Les Chevres",
     image:'./images/restu.PNG',
     desc: 'This is a website for Les Chèvres, a french restaurant in France.',
-    github: 'https://github.com',
-    site: 'https://github.com'
+    github: 'https://github.com/BulelaG/resturant',
+    site: 'https://leschevres.netlify.app'
     },
     {
         name: "My Portfolio",
         image:'./images/portfolio.PNG',
         desc: 'This is my developer portfolio',
         github: 'https://github.com/BulelaG/portfolio2024',
-        site: 'https://github.com'
+        site: 'https://bulela24.netlify.app/'
 
     }
     
