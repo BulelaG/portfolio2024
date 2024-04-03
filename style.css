@@ -251,6 +251,12 @@ h1{
   padding-top:100px;
   padding-bottom: 80px;
 }
+.frame{
+  border: #ffffff solid 1px;
+  border-radius: 20px;
+  padding: 20px;
+
+}
 
 /* Footer */
 
@@ -258,6 +264,7 @@ h1{
   background-image: linear-gradient(black, grey, black);
   padding: 0% 14% 0 14%;
 }
+
 
 
 /* Timeline css */
