@@ -3,21 +3,21 @@ var projects = [
     {
         name: 'Mychat',
         image: './images/chatbot.PNG',
-        desc: 'MyChat is an advanced chatbot designed to assist users in conducting research on various topics. With its natural language processing capabilities, it can understand user queries and provide relevant information from trusted sources. Whether you need to explore the latest news, delve into academic research, or get personalized recommendations, MyChat is your go-to virtual assistant.',
+        desc: 'MyChat is an advanced chatbot designed to assist users in conducting research on various topics. With its natural language processing capabilities, it can understand user queries and provide relevant information from trusted sources. Whether you need to  delve into academic research, or get personalized recommendations, MyChat is your go-to virtual assistant.',
         github: 'https://github.com/BulelaG/chatbot',
         site: 'https://mycht.netlify.app'
     },
     {
         name: "Les Chevres",
         image:'./images/restu.PNG',
-        desc: 'Les Chèvres is a beautifully crafted website dedicated to showcasing the exquisite offerings of a French restaurant nestled in the heart of France. From delectable culinary creations to an ambiance that exudes warmth and elegance, this website provides a tantalizing glimpse into the world of fine dining. Explore the menu, make reservations, and immerse yourself in the culinary delights that Les Chèvres has to offer.',
+        desc: 'Les Chèvres is a beautifully crafted website dedicated to showcasing the exquisite offerings of a French restaurant. From delectable culinary creations to an ambiance that exudes warmth and elegance, this website provides a tantalizing glimpse into the world of fine dining. Explore the menu, make reservations, and immerse yourself in the culinary delights that Les Chèvres has to offer.',
         github: 'https://github.com/BulelaG/resturant',
         site: 'https://leschevres.netlify.app'
     },
     {
         name: "My Portfolio",
         image:'./images/portfolio.PNG',
-        desc: 'Welcome to my developer portfolio! Here you will find a showcase of my projects, skills, and experiences in the world of software development. From web applications to mobile apps, I have a passion for building innovative solutions that make a difference. Dive into my portfolio to explore my work and get to know more about me as a developer.',
+        desc: 'Welcome to my developer portfolio! Here you will find a showcase of my projects, skills, and experiences in the world of software development. From web applications to multimedia designs, I have a passion for building innovative solutions that make a difference. Dive into my portfolio to explore my work and get to know more about me as a developer.',
         github: 'https://github.com/BulelaG/portfolio2024',
         site: 'https://bulela24.netlify.app/'
     },
