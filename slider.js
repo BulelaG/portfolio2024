@@ -1,29 +1,42 @@
 // JS for projects
 var projects = [
     {
-    name: 'Mychat',
-    image: './images/chatbot.PNG',
-    desc: 'This is a chatbot that can be used to research all kinds of topics, built.',
-    github: 'https://github.com/BulelaG/chatbot',
-    site: 'https://mycht.netlify.app'
+        name: 'Mychat',
+        image: './images/chatbot.PNG',
+        desc: 'MyChat is an advanced chatbot designed to assist users in conducting research on various topics. With its natural language processing capabilities, it can understand user queries and provide relevant information from trusted sources. Whether you need to explore the latest news, delve into academic research, or get personalized recommendations, MyChat is your go-to virtual assistant.',
+        github: 'https://github.com/BulelaG/chatbot',
+        site: 'https://mycht.netlify.app'
     },
     {
-    name: "Les Chevres",
-    image:'./images/restu.PNG',
-    desc: 'This is a website for Les Chèvres, a french restaurant in France.',
-    github: 'https://github.com/BulelaG/resturant',
-    site: 'https://leschevres.netlify.app'
+        name: "Les Chevres",
+        image:'./images/restu.PNG',
+        desc: 'Les Chèvres is a beautifully crafted website dedicated to showcasing the exquisite offerings of a French restaurant nestled in the heart of France. From delectable culinary creations to an ambiance that exudes warmth and elegance, this website provides a tantalizing glimpse into the world of fine dining. Explore the menu, make reservations, and immerse yourself in the culinary delights that Les Chèvres has to offer.',
+        github: 'https://github.com/BulelaG/resturant',
+        site: 'https://leschevres.netlify.app'
     },
     {
         name: "My Portfolio",
         image:'./images/portfolio.PNG',
-        desc: 'This is my developer portfolio',
+        desc: 'Welcome to my developer portfolio! Here you will find a showcase of my projects, skills, and experiences in the world of software development. From web applications to mobile apps, I have a passion for building innovative solutions that make a difference. Dive into my portfolio to explore my work and get to know more about me as a developer.',
         github: 'https://github.com/BulelaG/portfolio2024',
         site: 'https://bulela24.netlify.app/'
-
+    },
+    {
+        name: "Bank Portal App",
+        image:'./images/Bank.PNG',
+        desc: 'The Bank Portal App is a comprehensive banking solution that empowers users to manage their finances with ease and security. From creating accounts to conducting transactions, this platform offers a seamless banking experience. With robust features such as account balance tracking, fund transfers, and transaction history, users can stay in control of their finances anytime, anywhere.',
+        github: 'https://github.com/BulelaG/portfolio2024',
+        site: '(not hosted)',
+    },
+    {
+        name: "Unit Converter",
+        image:'./images/Unit_converter.PNG',
+        desc: 'The Unit Converter is a handy tool designed to simplify the process of converting between different units of measurement. With support for a wide range of unit types and easy-to-use interface, performing conversions has never been easier. Say goodbye to complex calculations',
+        github: 'https://github.com/BulelaG/portfolio2024',
+        site: '(not hosted)'
     }
-    
 ];
+
 var num = 0;
 function next() {
     let project = projects[num];
